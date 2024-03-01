@@ -20,13 +20,15 @@ ul {
 nav {
     max-width: 1120px;
     margin: auto;
-    padding: 24px 160px;
+    padding: 24px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 800px;
+    justify-content:space-between;
+    align-items:center;
+    gap: 735px;
+
     color: black;
+    
 }
 
 .logo {
