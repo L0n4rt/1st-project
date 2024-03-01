@@ -2,6 +2,10 @@
 <html lang="pt-br">
 <head>
 
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Teko:wght@300..700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -12,37 +16,38 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-    <div id="container">
-        <div id="profile">
-            <img src="./assets/me.jpg" alt="">
-            <p>@moreno_l0n4</p>
+    
+    <header>
+        <nav>
+            <span class="logo">MySelf</span>
+            <ul class="menu">
+            </li><a href="https://instagram.com/moreno_l0n4/">Instagram</a></li>
+            </li><a href="https://linkedin.com/in/lucas-moreno-reis-253a7a276/">Linkedin</a></li>
+            <li><a href="https://github.com/L0n4rt/">GitHub</a></li>
+            </ul>
+            <div>
+            
+        
         </div>
-        <ul>
-            <li>
-                <a href="#">Versão Brasileira</a>
-            </li>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <header class="hero-content">
+                <span class="destaque">Sobre mim</span>
+                <h1 class="tittle">lucas moreno reis</h1>
+                <hr/>
+                <div class="paragrafos">
+                <p>Sempre fui um garoto apaixonado pela tecnologia, sempre o garoto do computador. Por muito ignorei essa facilidade que tenho para a área da computação. Mas, quando dei uma chance, me apaixonei. </p>
+                <p>Agora que descobri o que eu amo, sei que vou dar meu maximo para fazer meu nome na área, venho estudando e realizando alguns projetos para meu portifólio e logo alcançarei meu objetivo.</p>
+                </div>
+            </header>
+            <div class="image-container">
+                <figure><img src="./assets/me.jpg"/></figure>
+            </div>
+        </section>
 
-            <li>
-                <a href="#">English version</a>
-            </li>
-        </ul>
-        <div id="social-icons">
-            <a href="https://www.instagram.com/moreno_l0n4/" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-            <a href="https://www.linkedin.com/in/lucas-moreno-reis-253a7a276/" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-           
-        </div>
-    </div>
-
-    <footer>
-        ♥ Progredindo na arte de programar ♥ 
-    </footer>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </main>
 </body>
 </html>

@@ -1,107 +1,96 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Teko:wght@300..700&display=swap" rel="stylesheet">;
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    
 }
 
 body {
-    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover ;
+    background-image: url(assets/6616919-ele-ressuscitou-fundo-com-cruz-contra-ceu-sol-gratis-vetor.jpg);
 }
 
-body* {
-    font-family: 'Inter', sans-serif;
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 24px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 800px;
     color: black;
 }
 
-    #container{
-        width: 360px;
-        margin: 56px auto 0px;
-        padding: 0 24px;
+.logo {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 32px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 4px 30px;
+    border-radius: 16px;
+}
+
+.menu {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.hero {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px;
+    max-width: 1120px;
+    padding: 24px 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 24px 32px;
+}
+
+.image-container > figure > img{
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.destaque {
+    font-size: 20px;
+}
+
+.tittle{
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
     }
 
-    #profile img{
-        display: block;
-        width: 112px;
-        margin: auto;
-        border-radius: 50%;
-
-    }
-
-    #profile {
-        text-align: center;
-        padding: 24px;
-        color: purple
-    }
-
-    #profile p {
-        font-weight: 500;
-        line-height: 24px;
-        margin-top: 8px;
-    }
-
-    ul {
-        list-style: none;
-
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-
-        padding: 24px 0px;
-    }
-
-    ul li a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        padding: 16px 24px;
-
-        background: rgba(255, 255, 255, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        border-radius: 18px;
-
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-
-        text-decoration: none;
-        font-weight: 500;
-
-        transition: background 0.2s;
-
-    }
-
-    ul li a:hover {
-        background: rgba(255, 255, 255, 0.05);
-        border: 1.5px solid white;
-    }
-
-    #social-icons {
-        display: flex;
-        justify-content:center ;
-
-        padding: 24px 0;
-
+    .paragrafos {
         font-size: 24px;
-
-    }
-
-    #social-icons a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 16px;
-        transition: background 0.2s;
-        border-radius: 50%;
-
-    }
-
-    #social-icons a:hover {
-        background: rgba(255, 255, 255, 0.2);
-    }
-
-    footer {
-        text-align: center;
-        padding: 24px 0;
-        font-size: 14px;
+        max-width: 500px;
     }
